@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.so
+.eggs/
+*.egg-info/
+.installed.cfg
+
+# Odoo
+*.pyc
+.DS_Store

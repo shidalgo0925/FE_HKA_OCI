@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Heredar vista de formulario de factura -->
+    <record id="view_move_form_inherit_factulectronic" model="ir.ui.view">
+        <field name="name">account.move.form.inherit.factulectronic</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form"/>
+        <field name="arch" type="xml">
+            <!-- Ocultar Imprimir y Vista previa cuando hay documento HKA (usar Reimprimir factura fiscal) -->
+            <xpath expr="//button[@name='action_print_pdf'][1]" position="attributes">
+                <attribute name="invisible">state != 'posted' or is_being_sent or invoice_pdf_report_id or move_type == 'entry' or hka_cufe</attribute>
+            </xpath>
+            <xpath expr="//button[@name='action_print_pdf'][2]" position="attributes">
+                <attribute name="invisible">state != 'posted' or (not is_being_sent and not invoice_pdf_report_id) or hka_cufe</attribute>
+            </xpath>
+            <xpath expr="//button[@name='preview_invoice']" position="attributes">
+                <attribute name="invisible">move_type not in ('out_invoice', 'out_refund') or state in ('draft', 'cancel') or hka_cufe</attribute>
+            </xpath>
+            <!-- Agregar botones de facturación electrónica -->
+            <xpath expr="//header" position="inside">
+                <button name="action_send_hka" 
+                        type="object" 
+                        string="Enviar a DGI"
+                        class="btn-primary"
+                        invisible="state != 'posted' or move_type not in ['out_invoice', 'out_refund'] or hka_cufe"
+                        groups="account.group_account_invoice"/>
+                <button name="action_cancel_hka" 
+                        type="object" 
+                        string="Anular en DGI"
+                        class="btn-danger"
+                        invisible="not hka_cufe or state != 'posted' or hka_estado_dgi != 'autorizado'"
+                        groups="account.group_account_manager"/>
+                <button name="action_view_hka_document" 
+                        type="object" 
+                        string="Ver Documento FE"
+                        invisible="not hka_document_id"
+                        groups="account.group_account_invoice"/>
+                <button name="action_reprint_fiscal" 
+                        type="object" 
+                        string="Reimprimir factura fiscal"
+                        class="btn-secondary"
+                        invisible="not hka_cufe or hka_state == 'cancelled'"
+                        groups="account.group_account_invoice"/>
+            </xpath>
+            
+            <!-- Agregar estado de facturación electrónica en la cabecera -->
+            <xpath expr="//div[@name='button_box']" position="inside">
+                <button name="action_view_hka_document"
+                        type="object"
+                        class="oe_stat_button"
+                        icon="fa-file-text-o"
+                        invisible="not hka_document_id">
+                    <div class="o_stat_info">
+                        <field name="hka_state" widget="badge" 
+                               decoration-success="hka_state == 'authorized'"
+                               decoration-danger="hka_state in ['rejected', 'cancelled']"
+                               decoration-warning="hka_state == 'sent'"
+                               decoration-info="hka_state == 'draft'"/>
+                        <span class="o_stat_text">Factura Electrónica</span>
+                    </div>
+                </button>
+            </xpath>
+            
+            <!-- Agregar pestaña de facturación electrónica -->
+            <xpath expr="//page[@name='other_info']" position="after">
+                <page string="Facturación Electrónica" name="factulectronic" 
+                      invisible="move_type not in ['out_invoice', 'out_refund']">
+                    <group>
+                        <group string="Datos del Documento">
+                            <field name="hka_tipo_documento"/>
+                            <field name="hka_naturaleza_operacion"/>
+                            <field name="hka_tipo_operacion"/>
+                            <field name="hka_destino_operacion"/>
+                            <field name="hka_forma_pago"/>
+                        </group>
+                        <group string="Estado">
+                            <field name="hka_cufe" readonly="1"/>
+                            <field name="hka_estado_dgi" readonly="1"/>
+                            <field name="hka_state" readonly="1"/>
+                            <field name="hka_document_id" readonly="1"/>
+                            <field name="hka_motivo_anulacion" placeholder="Motivo para anulación en DGI (opcional)"/>
+                        </group>
+                    </group>
+                    <group string="Documento Referenciado (para NC/ND)" 
+                           invisible="hka_tipo_documento not in ['04', '05', '06', '07']">
+                        <field name="hka_documento_referencia"/>
+                        <field name="hka_fecha_documento_referencia"/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+    
+    <!-- Heredar vista de lista de facturas - Comentado temporalmente por incompatibilidad con Odoo 18 -->
+    <!--
+    <record id="view_move_tree_inherit_factulectronic" model="ir.ui.view">
+        <field name="name">account.move.tree.inherit.factulectronic</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="inside">
+                <field name="hka_cufe" optional="hide"/>
+                <field name="hka_state" widget="badge" optional="show"
+                       decoration-success="hka_state == 'authorized'"
+                       decoration-danger="hka_state in ['rejected', 'cancelled']"
+                       decoration-warning="hka_state == 'sent'"/>
+            </xpath>
+        </field>
+    </record>
+    -->
+</odoo>
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hka_document_user,hka.document.user,model_hka_document,account.group_account_invoice,1,1,1,0
+access_hka_document_manager,hka.document.manager,model_hka_document,account.group_account_manager,1,1,1,1
+access_hka_cancel_wizard_user,hka.cancel.wizard.user,model_hka_cancel_wizard,account.group_account_invoice,1,1,1,1
+access_hka_codigo_ubicacion_user,hka.codigo.ubicacion.user,model_hka_codigo_ubicacion,account.group_account_invoice,1,0,0,0
+access_hka_codigo_ubicacion_manager,hka.codigo.ubicacion.manager,model_hka_codigo_ubicacion,account.group_account_manager,1,1,1,1
+access_hka_cpbs_user,hka.cpbs.user,model_hka_cpbs,account.group_account_invoice,1,0,0,0
+access_hka_cpbs_manager,hka.cpbs.manager,model_hka_cpbs,account.group_account_manager,1,1,1,1
+access_hka_unidad_medida_user,hka.unidad.medida.user,model_hka_unidad_medida,account.group_account_invoice,1,0,0,0
+access_hka_unidad_medida_manager,hka.unidad.medida.manager,model_hka_unidad_medida,account.group_account_manager,1,1,1,1
+
+
+
+
+
+
