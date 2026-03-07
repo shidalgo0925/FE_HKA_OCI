@@ -30,7 +30,7 @@ Requisitos:
 Desarrollado por: Easytech Services
     """,
     'author': 'Easytech Services',
-    'website': 'https://easytechservices.com',
+    'website': 'https://easytech.services',
     'license': 'LGPL-3',
     'depends': [
         'base',

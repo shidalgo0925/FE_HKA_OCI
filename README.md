@@ -5,7 +5,7 @@ Módulo de **Odoo 18** para emitir facturas electrónicas en Panamá integrado c
 | | |
 |---|---|
 | **Autor** | Easytech Services |
-| **Web** | https://easytechservices.com |
+| **Web** | https://easytech.services |
 | **Repositorio** | https://github.com/shidalgo0925/FE_HKA_OCI |
 | **Licencia** | LGPL-3 |
 | **Versión** | 18.0.1.1.0 |
@@ -55,10 +55,10 @@ Módulo de **Odoo 18** para emitir facturas electrónicas en Panamá integrado c
 
 ## Dónde encontrarnos
 
-- **Soporte y contacto:** [Easytech Services](https://easytechservices.com)
+- **Soporte y contacto:** [Easytech Services](https://easytech.services)
 - **Código fuente:** [GitHub – FE_HKA_OCI](https://github.com/shidalgo0925/FE_HKA_OCI)
 - **Odoo 18** · Facturación electrónica Panamá · The Factory HKA · DGI
 
 ---
 
-Desarrollado por **Easytech Services** · https://easytechservices.com
+Desarrollado por **Easytech Services** · https://easytech.services
