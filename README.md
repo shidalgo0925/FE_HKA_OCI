@@ -1,14 +1,17 @@
-# ETS Facturación Electrónica Panamá - HKA
+# FE_odoo18 — Facturación Electrónica Panamá (HKA)
+
+**FE_odoo18** es el nombre de la línea de producto para **Odoo 18** (el directorio del addon en addons sigue siendo `FE_HKA_OCI` por compatibilidad con bases ya instaladas).
 
 Módulo de **Odoo 18** para emitir facturas electrónicas en Panamá integrado con **The Factory HKA Corp** (proveedor autorizado ante la DGI).
 
 | | |
 |---|---|
+| **Línea / codename** | **FE_odoo18** |
 | **Autor** | Easytech Services |
 | **Web** | https://easytech.services |
 | **Repositorio** | https://github.com/shidalgo0925/FE_HKA_OCI |
 | **Licencia** | LGPL-3 |
-| **Versión** | 18.0.1.1.0 |
+| **Versión** | 18.0.1.2.0 |
 | **Última actualización** | Marzo 2026 |
 
 ---

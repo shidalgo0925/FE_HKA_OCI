@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'ETS Facturación Electrónica Panamá - HKA',
-    'version': '18.0.1.1.0',
+    # Nombre técnico del directorio sigue siendo FE_HKA_OCI (instalaciones existentes).
+    # FE_odoo18 = línea de producto / versión para Odoo 18 (vs futura FE_odoo19).
+    'name': 'FE_odoo18 — Facturación Electrónica Panamá (HKA)',
+    'version': '18.0.1.2.0',
     'category': 'Accounting/Localizations/EDI',
-    'summary': 'Integración con The Factory HKA para Facturación Electrónica de Panamá',
+    'summary': 'Línea FE_odoo18: integración The Factory HKA para facturación electrónica Panamá',
     'description': """
 Facturación Electrónica Panamá - HKA Factory
 =============================================
