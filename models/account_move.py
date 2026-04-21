@@ -622,7 +622,17 @@ class AccountMove(models.Model):
         _logger.info(f"Enviando documento a HKA: {json.dumps(documento, indent=2)}")
         
         # Enviar a HKA
-        result = client.enviar_documento(documento)
+        try:
+            result = client.enviar_documento(documento)
+        except Exception as e:
+            err = str(e).lower()
+            if 'inválidos' in err or 'inválido' in err or 'autenticación' in err or 'autenticacion' in err:
+                raise UserError(_(
+                    'HKA rechazó el usuario o la clave. '
+                    'Revise en Ajustes → Compañía → Facturación Electrónica: Usuario y Clave de integración HKA, '
+                    'y que el ambiente (demo/producción) sea el correcto.'
+                )) from e
+            raise
         
         # Crear registro de documento HKA
         hka_doc_vals = {

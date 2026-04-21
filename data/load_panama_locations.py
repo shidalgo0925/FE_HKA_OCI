@@ -225,15 +225,14 @@ def _load_from_csv(env):
     return created_hka + updated_hka
 
 
-def load_panama_locations(cr, registry):
+def load_panama_locations(cr, registry=None):
     """
-    Post-init hook: secuencia completa para facturación electrónica (solo en instalación).
-    1. Provincias (res.country.state)
-    2. Distritos (paso explícito; datos en hka.codigo.ubicacion)
-    3. Corregimientos (paso explícito; datos en hka.codigo.ubicacion)
-    4. Códigos HKA (CSV + XML, idempotente)
+    Post-init hook. Odoo 18 llama con (env); versiones anteriores con (cr, registry).
     """
-    env = api.Environment(cr, SUPERUSER_ID, {})
+    if registry is None:
+        env = cr  # Odoo 18: primer arg es env
+    else:
+        env = api.Environment(cr, SUPERUSER_ID, {})
     _ensure_panama_states(env)
     _ensure_panama_districts(env)
     _ensure_panama_corregimientos(env)

@@ -1,0 +1,465 @@
+codigo,provincia,distrito,corregimiento
+010101,Bocas del Toro,Bocas del Toro,Bocas del Toro
+010102,Bocas del Toro,Bocas del Toro,Bastimentos
+010103,Bocas del Toro,Bocas del Toro,Cauchero
+010104,Bocas del Toro,Bocas del Toro,Punta Laurel
+010105,Bocas del Toro,Bocas del Toro,Tierra Oscura
+010201,Bocas del Toro,Changuinola,Changuinola
+010301,Bocas del Toro,Chiriquí Grande,Chiriquí Grande
+010401,Bocas del Toro,Almirante,Almirante
+020101,Coclé,Penonomé,Penonomé
+020102,Coclé,Penonomé,Cañazas
+020103,Coclé,Penonomé,Coclé
+020104,Coclé,Penonomé,El Coco
+020201,Chiriquí,Barú,Puerto Armuelles
+020301,Chiriquí,Boquerón,Boquerón
+020401,Chiriquí,Boquete,Bajo Boquete
+020501,Chiriquí,Bugaba,La Concepción
+020601,Chiriquí,David,David
+020701,Chiriquí,Dolega,Dolega
+020801,Chiriquí,Gualaca,Gualaca
+020901,Chiriquí,Remedios,Remedios
+021001,Chiriquí,Renacimiento,Río Sereno
+021101,Chiriquí,San Félix,Las Lajas
+021201,Chiriquí,San Lorenzo,Horconcitos
+021301,Chiriquí,Tolé,Tolé
+021401,Chiriquí,Tierras Altas,Volcán
+030101,Guna Yala,Guna Yala,Guna Yala
+030102,Guna Yala,Guna Yala,Ailigandí
+030103,Guna Yala,Guna Yala,Carti Sugtupu
+030104,Guna Yala,Guna Yala,Corazón de Jesús
+030105,Guna Yala,Guna Yala,El Porvenir
+030106,Guna Yala,Guna Yala,Gardi Sugdub
+030107,Guna Yala,Guna Yala,Mulatupo
+030108,Guna Yala,Guna Yala,Narganá
+030109,Guna Yala,Guna Yala,Playón Chico
+030110,Guna Yala,Guna Yala,Puerto Obaldía
+030111,Guna Yala,Guna Yala,Río Azúcar
+030112,Guna Yala,Guna Yala,San Ignacio de Tupile
+030113,Guna Yala,Guna Yala,Tubualá
+030114,Guna Yala,Guna Yala,Ustupu
+030115,Guna Yala,Guna Yala,Yandup
+030201,Coclé,Antón,Antón
+030301,Coclé,La Pintada,La Pintada
+030401,Coclé,Natá,Natá
+030501,Coclé,Olá,Olá
+030601,Coclé,Penonomé,Penonomé
+040101,Chiriquí,David,David
+040102,Chiriquí,David,Chiriquí
+040103,Chiriquí,David,San Pablo Nuevo
+040104,Chiriquí,David,San Pablo Viejo
+040201,Colón,Colón,Colón
+040301,Colón,Donoso,Miguel de la Borda
+040401,Colón,Portobelo,Portobelo
+040501,Colón,Santa Isabel,Palenque
+040601,Colón,Omar Torrijos Herrera,Coclesito
+050101,Darién,Chepigana,Chepigana
+050102,Darién,Chepigana,Agua Fría
+050103,Darién,Chepigana,Canglón
+050104,Darién,Chepigana,Cucunatí
+050105,Darién,Chepigana,El Real de Santa María
+050106,Darién,Chepigana,Metetí
+050107,Darién,Chepigana,Pinogana
+050108,Darién,Chepigana,Púcuro
+050109,Darién,Chepigana,Yape
+050110,Darién,Chepigana,Yaviza
+050201,Darién,Pinogana,El Real de Santa María
+050301,Darién,Santa Fe,Santa Fe
+060101,Herrera,Chitré,Chitré
+060102,Herrera,Chitré,La Arena
+060103,Herrera,Chitré,Monagrillo
+060104,Herrera,Chitré,Llano Bonito
+060201,Herrera,Las Minas,Las Minas
+060301,Herrera,Los Pozos,Los Pozos
+060401,Herrera,Ocú,Ocú
+060501,Herrera,Parita,Parita
+060601,Herrera,Pesé,Pesé
+060701,Herrera,Santa María,Santa María
+070101,Los Santos,Guararé,Guararé
+070201,Los Santos,Las Tablas,Las Tablas
+070301,Los Santos,Los Santos,La Villa de los Santos
+070401,Los Santos,Macaracas,Macaracas
+070501,Los Santos,Pedasí,Pedasí
+070601,Los Santos,Pocrí,Pocrí
+070701,Los Santos,Tonosí,Tonosí
+080101,Panamá,Balboa,San Miguel
+080201,Panamá,Chepo,Chepo
+080301,Panamá,Chimán,Chimán
+080501,Panamá,Taboga,Taboga
+080801,Panamá,Panamá,San Felipe
+080802,Panamá,Panamá,El Chorrillo
+080803,Panamá,Panamá,Santa Ana
+080804,Panamá,Panamá,Calidonia
+080805,Panamá,Panamá,Curundú
+080806,Panamá,Panamá,Ancón
+080807,Panamá,Panamá,Bella Vista
+080808,Panamá,Panamá,Betania
+080809,Panamá,Panamá,Catedral
+080810,Panamá,Panamá,El Marañón
+080811,Panamá,Panamá,Juan Díaz
+080812,Panamá,Panamá,Las Sabanas
+080813,Panamá,Panamá,Parque Lefevre
+080814,Panamá,Panamá,Pueblo Nuevo
+080815,Panamá,Panamá,Río Abajo
+080816,Panamá,Panamá,San Francisco
+080817,Panamá,Panamá,Santa Ana
+080818,Panamá,Panamá,Tocumen
+080819,Panamá,Panamá,Pedregal
+080820,Panamá,Panamá,Pacora
+080821,Panamá,Panamá,Chilibre
+080822,Panamá,Panamá,Las Cumbres
+080823,Panamá,Panamá,Alcalde Díaz
+080824,Panamá,Panamá,Ernesto Córdoba Campos
+080825,Panamá,Panamá,Mateo Iturralde
+080826,Panamá,Panamá,Belisario Porras
+080827,Panamá,Panamá,José Domingo Espinar
+080828,Panamá,Panamá,Rufina Alfaro
+080829,Panamá,Panamá,Victoriano Lorenzo
+080830,Panamá,Panamá,Belisario Frías
+080831,Panamá,Panamá,Omar Torrijos
+080832,Panamá,Panamá,Arnulfo Arias
+080833,Panamá,Panamá,Samaria
+080834,Panamá,Panamá,24 de Diciembre
+080835,Panamá,Panamá,San Martín
+080836,Panamá,Panamá,Veracruz
+080837,Panamá,Panamá,Nuevo Chorrillo
+080838,Panamá,Panamá,Nuevo Tocumen
+080839,Panamá,Panamá,Nuevo San Francisco
+080840,Panamá,Panamá,Nuevo Belén
+080841,Panamá,Panamá,Don Bosco
+080842,Panamá,Panamá,El Ingenio
+080843,Panamá,Panamá,Las Garzas
+080844,Panamá,Panamá,Las Mañanitas
+080845,Panamá,Panamá,Los Pueblos
+080846,Panamá,Panamá,Nuevo Chorrillo
+080847,Panamá,Panamá,Nuevo Emperador
+080848,Panamá,Panamá,Nuevo San Francisco
+080849,Panamá,Panamá,Nuevo Tocumen
+080850,Panamá,Panamá,Pedregal
+080851,Panamá,Panamá,San Francisco
+080852,Panamá,Panamá,San Isidro
+080853,Panamá,Panamá,San Martín
+080854,Panamá,Panamá,Santa Ana
+080855,Panamá,Panamá,Santa Librada
+080856,Panamá,Panamá,Santo Tomás
+080857,Panamá,Panamá,Tocumen
+080858,Panamá,Panamá,Villa Lourdes
+080859,Panamá,Panamá,Agua Buena
+080860,Panamá,Panamá,El Manantial
+080861,Panamá,Panamá,El Pedregoso
+080862,Panamá,Panamá,La Laja
+080863,Panamá,Panamá,Las Palmas
+080864,Panamá,Panamá,Llano de Piedra
+080865,Panamá,Panamá,Macaracas
+080866,Panamá,Panamá,Mogollón
+080867,Panamá,Panamá,Quebrada del Rosario
+080868,Panamá,Panamá,San Francisco de La Montaña
+080869,Panamá,Panamá,San José
+080870,Panamá,Panamá,San Martín
+080871,Panamá,Panamá,Santa Fé
+080872,Panamá,Panamá,Santo Domingo
+080873,Panamá,Panamá,El Rincón
+080874,Panamá,Panamá,Flores
+080875,Panamá,Panamá,Llano Grande
+080876,Panamá,Panamá,El Hato
+080877,Panamá,Panamá,El Sesteadero
+080878,Panamá,Panamá,La Laja
+080879,Panamá,Panamá,La Tiza
+080880,Panamá,Panamá,Los Olivos
+080881,Panamá,Panamá,San Cristóbal
+080882,Panamá,Panamá,San Isidro
+080883,Panamá,Panamá,Santa Librada
+080884,Panamá,Panamá,Santo Tomás
+080885,Panamá,Panamá,Villa Lourdes
+080886,Panamá,Panamá,Agua Buena
+080887,Panamá,Panamá,El Manantial
+080888,Panamá,Panamá,El Pedregoso
+080889,Panamá,Panamá,La Laja
+080890,Panamá,Panamá,Las Palmas
+080891,Panamá,Panamá,Llano de Piedra
+080892,Panamá,Panamá,Macaracas
+080893,Panamá,Panamá,Mogollón
+080894,Panamá,Panamá,Quebrada del Rosario
+080895,Panamá,Panamá,San Francisco de La Montaña
+080896,Panamá,Panamá,San José
+080897,Panamá,Panamá,San Martín
+080898,Panamá,Panamá,Santa Fé
+080899,Panamá,Panamá,Santo Domingo
+080900,Panamá,Panamá,El Rincón
+080901,Panamá,Arraiján,Arraiján
+080902,Panamá,Arraiján,Burunga
+080903,Panamá,Arraiján,Cerro Silvestre
+080904,Panamá,Arraiján,Juan Demóstenes Arosemena
+080905,Panamá,Arraiján,Nuevo Emperador
+080906,Panamá,Arraiján,Santa Clara
+080907,Panamá,Arraiján,Vista Alegre
+080908,Panamá,Arraiján,Cabuya
+080909,Panamá,Arraiján,El Coco
+080910,Panamá,Arraiján,La Chorrera
+080911,Panamá,Arraiján,Barrio Balboa
+080912,Panamá,Arraiján,Barrio Colón
+081001,Panamá,San Miguelito,San Miguelito
+081002,Panamá,San Miguelito,Amelia Denis de Icaza
+081003,Panamá,San Miguelito,Belisario Porras
+081004,Panamá,San Miguelito,José Domingo Espinar
+081005,Panamá,San Miguelito,Mateo Iturralde
+081006,Panamá,San Miguelito,Victoriano Lorenzo
+081007,Panamá,San Miguelito,Arnulfo Arias
+081008,Panamá,San Miguelito,Belisario Frías
+081009,Panamá,San Miguelito,Omar Torrijos
+081010,Panamá,San Miguelito,Rufina Alfaro
+090101,Colón,Colón,Colón
+090102,Colón,Colón,Cristóbal
+090103,Colón,Colón,Escobal
+090104,Colón,Colón,Nueva Providencia
+090105,Colón,Colón,Puerto Pilón
+090201,Panamá Oeste,Capira,Capira
+090301,Panamá Oeste,Chame,Chame
+090401,Panamá Oeste,La Chorrera,La Chorrera
+090501,Panamá Oeste,San Carlos,San Carlos
+100101,Panamá Oeste,La Chorrera,La Chorrera
+100102,Panamá Oeste,La Chorrera,Barrio Balboa
+100103,Panamá Oeste,La Chorrera,Barrio Colón
+100104,Panamá Oeste,La Chorrera,Amador
+100105,Panamá Oeste,La Chorrera,Arosemena
+100106,Panamá Oeste,La Chorrera,El Arado
+100107,Panamá Oeste,La Chorrera,El Coco
+100108,Panamá Oeste,La Chorrera,Feuillet
+100109,Panamá Oeste,La Chorrera,Guadalupe
+100110,Panamá Oeste,La Chorrera,Herrera
+100111,Panamá Oeste,La Chorrera,Hurtado
+100112,Panamá Oeste,La Chorrera,Iturralde
+100113,Panamá Oeste,La Chorrera,La Represa
+100114,Panamá Oeste,La Chorrera,Los Díaz
+100115,Panamá Oeste,La Chorrera,Mendoza
+100116,Panamá Oeste,La Chorrera,Obaldía
+100117,Panamá Oeste,La Chorrera,Playa Leona
+100118,Panamá Oeste,La Chorrera,Puerto Caimito
+100119,Panamá Oeste,La Chorrera,Santa Rita
+100201,Veraguas,Calobre,Calobre
+100301,Veraguas,Cañazas,Cañazas
+100401,Veraguas,La Mesa,La Mesa
+100501,Veraguas,Las Palmas,Las Palmas
+100601,Veraguas,Montijo,Montijo
+100701,Veraguas,Río de Jesús,Río de Jesús
+100801,Veraguas,San Francisco,San Francisco
+100901,Veraguas,Santa Fe,Santa Fe
+101001,Veraguas,Santiago,Santiago de Veraguas
+101101,Veraguas,Soná,Soná
+101201,Veraguas,Mariato,Mariato
+110101,Emberá-Wounaan,Cémaco,Cémaco
+110102,Emberá-Wounaan,Cémaco,Cirilo Guainora
+110103,Emberá-Wounaan,Cémaco,Lajas Blancas
+110104,Emberá-Wounaan,Cémaco,Manuel Ortega
+110105,Emberá-Wounaan,Cémaco,Río Sabalo
+120101,Ngäbe-Buglé,Ñürüm,Ñürüm
+120102,Ngäbe-Buglé,Ñürüm,Alto Caballero
+120103,Ngäbe-Buglé,Ñürüm,Bakama
+120104,Ngäbe-Buglé,Ñürüm,Cerro Banco
+120105,Ngäbe-Buglé,Ñürüm,Cerro Pelado
+120106,Ngäbe-Buglé,Ñürüm,El Bale
+120107,Ngäbe-Buglé,Ñürüm,El Nancito
+120108,Ngäbe-Buglé,Ñürüm,El Piro
+120109,Ngäbe-Buglé,Ñürüm,Guayabito
+120110,Ngäbe-Buglé,Ñürüm,Lajero
+120111,Ngäbe-Buglé,Ñürüm,Lajero Arriba
+120112,Ngäbe-Buglé,Ñürüm,Quebrada Canoa
+120113,Ngäbe-Buglé,Ñürüm,Quebrada Tula
+120114,Ngäbe-Buglé,Ñürüm,Sitio Prado
+120115,Ngäbe-Buglé,Ñürüm,Soloy
+120116,Ngäbe-Buglé,Ñürüm,Sortová
+120117,Ngäbe-Buglé,Ñürüm,Tugrí
+120118,Ngäbe-Buglé,Ñürüm,Alto Caballero
+120119,Ngäbe-Buglé,Ñürüm,Bakama
+120120,Ngäbe-Buglé,Ñürüm,Cerro Banco
+130101,Los Santos,Los Santos,Los Santos
+130102,Los Santos,Los Santos,La Villa de Los Santos
+130103,Los Santos,Los Santos,El Guásimo
+130104,Los Santos,Los Santos,La Espigadilla
+130105,Los Santos,Los Santos,Las Cruces
+130106,Los Santos,Los Santos,Las Tablas
+130107,Los Santos,Los Santos,Llano Abajo
+130108,Los Santos,Los Santos,Llano Largo
+130109,Los Santos,Los Santos,Sabanagrande
+130110,Los Santos,Los Santos,San José
+130111,Los Santos,Los Santos,Santa Ana
+130112,Los Santos,Los Santos,La Tiza
+130113,Los Santos,Los Santos,La Enea
+130114,Los Santos,Los Santos,Tres Quebradas
+130115,Los Santos,Los Santos,El Carate
+130116,Los Santos,Los Santos,La Colorada
+130117,Los Santos,Los Santos,San José de Las Lajas
+130118,Los Santos,Los Santos,El Guásimo de Santa Ana
+130119,Los Santos,Los Santos,El Cedro
+130120,Los Santos,Los Santos,El Manantial
+130121,Los Santos,Los Santos,El Pedregoso
+130122,Los Santos,Los Santos,La Laja
+130123,Los Santos,Los Santos,La Tronosa
+130124,Los Santos,Los Santos,Las Palmas
+130125,Los Santos,Los Santos,Llano de Piedra
+130126,Los Santos,Los Santos,Macaracas
+130127,Los Santos,Los Santos,Mogollón
+130128,Los Santos,Los Santos,El Cañafístulo
+130129,Los Santos,Los Santos,La Laja de Tonosí
+130130,Los Santos,Los Santos,La Palma
+130131,Los Santos,Los Santos,Llano de Catival o Mariato
+130132,Los Santos,Los Santos,Mogollón
+130133,Los Santos,Los Santos,Quebrada del Rosario
+130134,Los Santos,Los Santos,San Francisco de La Montaña
+130135,Los Santos,Los Santos,San José
+130136,Los Santos,Los Santos,San Martín
+130137,Los Santos,Los Santos,Santa Fé
+130138,Los Santos,Los Santos,Santo Domingo
+130139,Los Santos,Los Santos,El Rincón
+130140,Los Santos,Los Santos,Flores
+130141,Los Santos,Los Santos,Llano Grande
+130142,Los Santos,Los Santos,El Hato
+130143,Los Santos,Los Santos,El Sesteadero
+130144,Los Santos,Los Santos,La Laja
+130145,Los Santos,Los Santos,La Tiza
+130146,Los Santos,Los Santos,Los Olivos
+130147,Los Santos,Los Santos,San Cristóbal
+130148,Los Santos,Los Santos,San Isidro
+130149,Los Santos,Los Santos,Santa Librada
+130150,Los Santos,Los Santos,Santo Tomás
+130151,Los Santos,Los Santos,Villa Lourdes
+130152,Los Santos,Los Santos,Agua Buena
+130153,Los Santos,Los Santos,El Manantial
+130154,Los Santos,Los Santos,El Pedregoso
+130155,Los Santos,Los Santos,La Laja
+130156,Los Santos,Los Santos,Las Palmas
+130157,Los Santos,Los Santos,Llano de Piedra
+130158,Los Santos,Los Santos,Macaracas
+130159,Los Santos,Los Santos,Mogollón
+130160,Los Santos,Los Santos,Quebrada del Rosario
+130161,Los Santos,Los Santos,San Francisco de La Montaña
+130162,Los Santos,Los Santos,San José
+130163,Los Santos,Los Santos,San Martín
+130164,Los Santos,Los Santos,Santa Fé
+130165,Los Santos,Los Santos,Santo Domingo
+130166,Los Santos,Los Santos,El Rincón
+130167,Los Santos,Los Santos,Flores
+130168,Los Santos,Los Santos,Llano Grande
+130169,Los Santos,Los Santos,El Hato
+130170,Los Santos,Los Santos,El Sesteadero
+130171,Los Santos,Los Santos,La Laja
+130172,Los Santos,Los Santos,La Tiza
+130173,Los Santos,Los Santos,Los Olivos
+130174,Los Santos,Los Santos,San Cristóbal
+130175,Los Santos,Los Santos,San Isidro
+130176,Los Santos,Los Santos,Santa Librada
+130177,Los Santos,Los Santos,Santo Tomás
+130178,Los Santos,Los Santos,Villa Lourdes
+130179,Los Santos,Los Santos,Agua Buena
+130180,Los Santos,Los Santos,El Manantial
+130181,Los Santos,Los Santos,El Pedregoso
+130182,Los Santos,Los Santos,La Laja
+130183,Los Santos,Los Santos,Las Palmas
+130184,Los Santos,Los Santos,Llano de Piedra
+130185,Los Santos,Los Santos,Macaracas
+130186,Los Santos,Los Santos,Mogollón
+130187,Los Santos,Los Santos,Quebrada del Rosario
+130188,Los Santos,Los Santos,San Francisco de La Montaña
+130189,Los Santos,Los Santos,San José
+130190,Los Santos,Los Santos,San Martín
+130191,Los Santos,Los Santos,Santa Fé
+130192,Los Santos,Los Santos,Santo Domingo
+130193,Los Santos,Los Santos,El Rincón
+130194,Los Santos,Los Santos,Flores
+130195,Los Santos,Los Santos,Llano Grande
+130196,Los Santos,Los Santos,El Hato
+130197,Los Santos,Los Santos,El Sesteadero
+130198,Los Santos,Los Santos,La Laja
+130199,Los Santos,Los Santos,La Tiza
+130200,Los Santos,Los Santos,Los Olivos
+130601,Los Santos,Pocrí,Pocrí
+130602,Los Santos,Pocrí,El Cañafístulo
+130603,Los Santos,Pocrí,La Laja de Tonosí
+130604,Los Santos,Pocrí,Paraiso
+130605,Los Santos,Pocrí,El Espino
+130606,Los Santos,Pocrí,El Cocal
+130607,Los Santos,Pocrí,El Manantial
+130608,Los Santos,Pocrí,La Tiza
+130609,Los Santos,Pocrí,Los Olivos
+130610,Los Santos,Pocrí,San Cristóbal
+200101,Veraguas,Santiago,Santiago
+200102,Veraguas,Santiago,La Colorada
+200103,Veraguas,Santiago,La Peña
+200104,Veraguas,Santiago,La Raya de Calobre
+200105,Veraguas,Santiago,Los Hatillos
+200106,Veraguas,Santiago,San Francisco
+200107,Veraguas,Santiago,San José
+200108,Veraguas,Santiago,San Martín
+200109,Veraguas,Santiago,Santa Fé
+200110,Veraguas,Santiago,Santo Domingo
+200111,Veraguas,Santiago,El Rincón
+200112,Veraguas,Santiago,Flores
+200113,Veraguas,Santiago,Llano Grande
+200114,Veraguas,Santiago,El Hato
+200115,Veraguas,Santiago,El Sesteadero
+200116,Veraguas,Santiago,La Laja
+200117,Veraguas,Santiago,La Tiza
+200118,Veraguas,Santiago,Los Olivos
+200119,Veraguas,Santiago,San Cristóbal
+200120,Veraguas,Santiago,San Isidro
+200121,Veraguas,Santiago,Santa Librada
+200122,Veraguas,Santiago,Santo Tomás
+200123,Veraguas,Santiago,Villa Lourdes
+200124,Veraguas,Santiago,Agua Buena
+8-1-1,Panamá,Balboa,San Miguel
+8-1-2,Panamá,Balboa,La Ensenada
+8-1-3,Panamá,Balboa,La Esmeralda
+8-1-4,Panamá,Balboa,La Guinea
+8-1-5,Panamá,Balboa,Pedro González
+8-1-6,Panamá,Balboa,Saboga
+8-2-1,Panamá,Chepo,Chepo
+8-2-2,Panamá,Chepo,Cañita
+8-2-3,Panamá,Chepo,Chepillo
+8-2-4,Panamá,Chepo,El Llano
+8-2-5,Panamá,Chepo,Las Margaritas
+8-2-6,Panamá,Chepo,Santa Cruz de Chinina
+8-2-7,Panamá,Chepo,Tortí
+8-2-8,Panamá,Chepo,Madugandí
+8-3-1,Panamá,Chimán,Chimán
+8-3-2,Panamá,Chimán,Brujas
+8-3-3,Panamá,Chimán,Gonzalo Vásquez
+8-3-4,Panamá,Chimán,Pásiga
+8-3-5,Panamá,Chimán,Unión Santeña
+8-4-1,Panamá,Panamá,Ancón
+8-4-10,Panamá,Panamá,Río Abajo
+8-4-11,Panamá,Panamá,San Felipe
+8-4-12,Panamá,Panamá,San Francisco
+8-4-13,Panamá,Panamá,Santa Ana
+8-4-14,Panamá,Panamá,Tocumen
+8-4-15,Panamá,Panamá,Las Mañanitas
+8-4-16,Panamá,Panamá,Pedregal
+8-4-17,Panamá,Panamá,Don Bosco
+8-4-18,Panamá,Panamá,Las Garzas
+8-4-19,Panamá,Panamá,Pacora
+8-4-2,Panamá,Panamá,Bella Vista
+8-4-20,Panamá,Panamá,San Martín
+8-4-21,Panamá,Panamá,Chilibre
+8-4-22,Panamá,Panamá,Alcalde Díaz
+8-4-23,Panamá,Panamá,Caimitillo
+8-4-24,Panamá,Panamá,Ernesto Córdoba Campos
+8-4-25,Panamá,Panamá,24 de Diciembre
+8-4-26,Panamá,Panamá,Las Cumbres
+8-4-3,Panamá,Panamá,Betania
+8-4-4,Panamá,Panamá,Calidonia
+8-4-5,Panamá,Panamá,Curundú
+8-4-6,Panamá,Panamá,El Chorrillo
+8-4-7,Panamá,Panamá,Juan Díaz
+8-4-8,Panamá,Panamá,Parque Lefevre
+8-4-9,Panamá,Panamá,Pueblo Nuevo
+8-5-1,Panamá,San Miguelito,Amelia Denis de Icaza
+8-5-2,Panamá,San Miguelito,Arnulfo Arias
+8-5-3,Panamá,San Miguelito,Belisario Frías
+8-5-4,Panamá,San Miguelito,Belisario Porras
+8-5-5,Panamá,San Miguelito,José Domingo Espinar
+8-5-6,Panamá,San Miguelito,Mateo Iturralde
+8-5-7,Panamá,San Miguelito,Omar Torrijos
+8-5-8,Panamá,San Miguelito,Rufina Alfaro
+8-5-9,Panamá,San Miguelito,Victoriano Lorenzo
+8-6-1,Panamá,Taboga,Taboga
+8-6-2,Panamá,Taboga,Otoque Occidente
+8-6-3,Panamá,Taboga,Otoque Oriente
